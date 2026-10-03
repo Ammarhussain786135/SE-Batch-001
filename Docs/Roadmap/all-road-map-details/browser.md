@@ -1,0 +1,369 @@
+# BurnDown
+ - Browser
+        - Browser Architecture
+            - Browser Process
+            - Renderer Process
+            - GPU Process
+            - Network Process
+            - Browser Threads
+            - Site Isolation
+            - Sandboxing
+
+        - URL & Navigation
+            - URL Structure
+            - Origin
+            - Same-Origin
+            - Navigation Lifecycle
+            - Page Lifecycle
+            - Redirects
+            - History API
+            - Back/Forward Cache (bfcache)
+
+        - Rendering
+            - HTML Parsing
+            - DOM
+            - CSS Parsing
+            - CSSOM
+            - Render Tree
+            - Layout
+            - Reflow
+            - Repaint
+            - Paint
+            - Compositing
+            - Rasterization
+            - GPU Rendering
+            - Critical Rendering Path
+
+        - JavaScript in Browser
+            - JavaScript Engine
+            - Execution Context
+            - Call Stack
+            - Heap
+            - Garbage Collection
+            - JIT Compilation
+            - Event Loop
+            - Task Queue
+            - Microtask Queue
+            - Web APIs
+            - requestAnimationFrame
+
+        - WebAssembly
+            - Wasm Modules
+            - Wasm Binary Format
+            - Wasm Text Format
+            - Linear Memory
+            - Tables
+            - Imports
+            - Exports
+            - JavaScript and WebAssembly
+            - WebAssembly Memory
+            - WebAssembly Performance
+
+        - Browser Networking
+            - DNS
+            - DNS Resolution
+            - TCP Connections
+            - TCP Handshake
+            - TCP Connection Reuse
+            - UDP
+            - Ports
+            - Sockets
+            - IP
+            - NAT
+            - Proxies
+            - CDN
+
+        - HTTP
+            - HTTP Request
+            - HTTP Response
+            - HTTP Methods
+            - HTTP Status Codes
+            - HTTP Headers
+            - Request Headers
+            - Response Headers
+            - HTTP Body
+            - Content-Type
+            - HTTP Compression
+            - HTTP Redirects
+            - HTTP Keep-Alive
+            - HTTP/1.1
+            - HTTP/2
+            - HTTP/3
+            - HTTP/2 Multiplexing
+            - HTTP/2 HPACK
+            - HTTP/3 QUIC
+
+        - HTTPS & TLS
+            - HTTPS
+            - TLS
+            - TLS Handshake
+            - TLS 1.2
+            - TLS 1.3
+            - SSL Certificates
+            - Certificate Authorities
+            - Public Key Cryptography
+            - Symmetric Encryption
+            - Asymmetric Encryption
+            - Certificate Validation
+            - HSTS
+            - Mixed Content
+            - Secure Contexts
+
+        - WebSockets
+            - WebSocket Handshake
+            - WebSocket Connection
+            - ws
+            - wss
+            - WebSocket Frames
+            - Text Frames
+            - Binary Frames
+            - Ping/Pong
+            - WebSocket Close
+            - WebSocket Reconnection
+
+        - WebRTC
+            - RTCPeerConnection
+            - MediaStream
+            - RTCDataChannel
+            - SDP
+            - Offer/Answer
+            - ICE
+            - STUN
+            - TURN
+            - NAT Traversal
+            - Signaling
+            - DTLS
+            - SRTP
+            - RTP
+            - RTCP
+
+        - Window & Browsing Context
+            - Window Object
+            - Document Object
+            - globalThis
+            - Browsing Context
+            - Top-Level Browsing Context
+            - iframe
+            - window.open
+            - window.opener
+            - window.parent
+            - window.top
+            - window.frames
+            - postMessage
+            - Cross-Origin Windows
+
+        - Browser Storage
+            - Cookies
+            - Session Cookies
+            - Persistent Cookies
+            - HttpOnly
+            - Secure Cookie
+            - SameSite Cookies
+            - Cookie Domain
+            - Cookie Path
+            - Cookie Expiration
+            - localStorage
+            - sessionStorage
+            - IndexedDB
+            - IndexedDB Transactions
+            - IndexedDB Object Stores
+            - IndexedDB Indexes
+            - IndexedDB Cursors
+            - Cache Storage
+            - Storage Quotas
+            - Storage Partitioning
+
+        - Browser Caching
+            - HTTP Cache
+            - Memory Cache
+            - Disk Cache
+            - Cache-Control
+            - max-age
+            - no-cache
+            - no-store
+            - ETag
+            - Last-Modified
+            - If-None-Match
+            - If-Modified-Since
+            - 304 Not Modified
+            - Cache Invalidation
+            - Cache Busting
+            - CDN Caching
+
+        - Sessions & Authentication
+            - HTTP Statelessness
+            - Browser Sessions
+            - Session IDs
+            - Cookie-Based Sessions
+            - Session Expiration
+            - Session Rotation
+            - Login and Logout
+            - Authentication
+            - Authorization
+            - Access Tokens
+            - Refresh Tokens
+            - JWT
+            - OAuth 2.0
+            - OpenID Connect
+            - WebAuthn
+            - Passkeys
+
+        - Fetch API
+            - fetch()
+            - Request
+            - Response
+            - Headers
+            - Request Body
+            - Response Body
+            - JSON
+            - FormData
+            - Blob
+            - ArrayBuffer
+            - AbortController
+            - Fetch Credentials
+            - Fetch Redirects
+            - Fetch CORS
+
+        - Browser APIs
+            - DOM API
+            - Fetch API
+            - URL API
+            - History API
+            - Storage API
+            - Clipboard API
+            - File API
+            - Web Crypto API
+            - Notifications API
+            - Geolocation API
+            - Permissions API
+            - Streams API
+
+        - Web Workers
+            - Main Thread
+            - Dedicated Worker
+            - Shared Worker
+            - postMessage
+            - Structured Clone
+            - Transferable Objects
+            - SharedArrayBuffer
+            - Atomics
+
+        - Service Workers
+            - Service Worker Registration
+            - Service Worker Lifecycle
+            - Install
+            - Activate
+            - Fetch Interception
+            - Cache API
+            - Offline Applications
+            - Background Operations
+            - Push Notifications
+            - Service Worker Scope
+
+        - Real-Time Web
+            - WebSockets
+            - Server-Sent Events
+            - WebRTC
+            - WebTransport
+            - WebSocket vs SSE
+            - WebSocket vs WebRTC
+            - WebSocket vs WebTransport
+
+        - Browser Security
+            - Same-Origin Policy
+            - CORS
+            - CORS Preflight
+            - CSRF
+            - XSS
+            - Reflected XSS
+            - Stored XSS
+            - DOM XSS
+            - Content Security Policy
+            - CSP Nonce
+            - CSP Hash
+            - Clickjacking
+            - iframe Security
+            - X-Frame-Options
+            - COOP
+            - COEP
+            - CORP
+            - Cross-Origin Isolation
+            - Secure Contexts
+
+        - Browser Forms
+            - HTML Forms
+            - GET Forms
+            - POST Forms
+            - FormData
+            - URL Encoded Forms
+            - Multipart Forms
+            - File Uploads
+            - Form Validation
+            - CSRF Protection
+
+        - Browser Binary Data
+            - ArrayBuffer
+            - TypedArray
+            - DataView
+            - Blob
+            - File
+            - FileReader
+            - Streams
+            - Transferable Objects
+
+        - Browser Streams
+            - ReadableStream
+            - WritableStream
+            - TransformStream
+            - Backpressure
+            - Streaming HTTP Responses
+            - Streaming Uploads
+            - Server-Sent Events
+
+        - Browser Permissions
+            - Camera Permission
+            - Microphone Permission
+            - Location Permission
+            - Notification Permission
+            - Clipboard Permission
+            - Sensor Permission
+            - Permissions API
+
+        - Browser Performance
+            - Network Waterfall
+            - DNS Latency
+            - TCP Latency
+            - TLS Latency
+            - Time to First Byte
+            - Resource Loading
+            - Lazy Loading
+            - Preload
+            - Prefetch
+            - Preconnect
+            - DNS Prefetch
+            - Code Splitting
+            - Compression
+            - Main Thread Performance
+            - Long Tasks
+            - First Contentful Paint
+            - Largest Contentful Paint
+            - Cumulative Layout Shift
+            - Interaction to Next Paint
+
+        - Browser Developer Tools
+            - Elements
+            - Console
+            - Network
+            - Application
+            - Security
+            - Performance
+            - Sources
+            - Memory
+            - Cookies Inspection
+            - localStorage Inspection
+            - sessionStorage Inspection
+            - IndexedDB Inspection
+            - Cache Inspection
+            - Service Worker Debugging
+            - WebSocket Debugging
+            - Network Request Timing

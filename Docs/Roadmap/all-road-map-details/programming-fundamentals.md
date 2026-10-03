@@ -1,0 +1,590 @@
+# BurnDown
+
+- Programming Fundamentals
+    - Programming Basics
+        - What is Programming
+        - What is a Program
+        - Programming Languages
+        - Source Code
+        - Machine Code
+        - Bytecode
+        - Compiler
+        - Interpreter
+        - Assembler
+        - Runtime
+        - Program Execution
+        - Syntax
+        - Semantics
+        - Compilation vs Interpretation
+        - Static vs Dynamic Languages
+        - Strong vs Weak Typing
+        - High-Level vs Low-Level Languages
+    - Variables & Constants
+        - Variables
+        - Constants
+        - Declaration
+        - Initialization
+        - Assignment
+        - Reassignment
+        - Naming Conventions
+        - Scope of Variables
+        - Lifetime of Variables
+        - Mutable vs Immutable Variables
+    - Data Types
+        - Primitive Data Types
+        - Numeric Types
+        - Integer
+        - Floating Point
+        - Decimal
+        - Boolean
+        - Character
+        - String
+        - Null
+        - Undefined
+        - Void
+        - Big Integer
+        - Enumeration
+        - Composite Data Types
+        - Arrays
+        - Objects
+        - Structures
+        - Records
+        - Tuples
+        - Sets
+        - Maps / Dictionaries
+        - Value Types vs Reference Types
+        - Type Conversion
+        - Type Casting
+        - Implicit Conversion
+        - Explicit Conversion
+        - Type Checking
+    - Operators
+        - Arithmetic Operators
+        - Assignment Operators
+        - Comparison Operators
+        - Equality
+        - Inequality
+        - Logical Operators
+        - Bitwise Operators
+        - Ternary Operator
+        - Operator Precedence
+        - Operator Associativity
+    - Expressions & Statements
+        - Expressions
+        - Statements
+        - Expression Statements
+        - Compound Statements
+        - Blocks
+        - Evaluation Order
+        - Side Effects
+    - Input & Output
+        - Standard Input
+        - Standard Output
+        - Standard Error
+        - User Input
+        - Command Line Arguments
+        - Console Output
+        - File Input
+        - File Output
+        - Input Validation
+        - Output Formatting
+    - Control Flow
+        - Sequential Execution
+        - Conditional Execution
+        - if
+        - else
+        - else if
+        - Nested Conditions
+        - switch / match
+        - Ternary Conditions
+        - Loops
+        - for Loop
+        - while Loop
+        - do-while Loop
+        - foreach
+        - Nested Loops
+        - Infinite Loops
+        - break
+        - continue
+        - return
+        - Guard Clauses
+        - Early Exit
+    - Functions
+        - What is a Function
+        - Function Declaration
+        - Function Definition
+        - Function Call
+        - Parameters
+        - Arguments
+        - Return Values
+        - Default Parameters
+        - Optional Parameters
+        - Variadic Functions
+        - Function Scope
+        - Local Variables
+        - Global Variables
+        - Pure Functions
+        - Impure Functions
+        - Recursion
+        - Base Case
+        - Recursive Case
+        - Call Stack
+        - Stack Overflow
+    - Arrays
+        - Array Declaration
+        - Array Initialization
+        - Indexing
+        - Array Length
+        - Traversal
+        - Searching
+        - Updating Elements
+        - Inserting Elements
+        - Removing Elements
+        - Sorting
+        - Reversing
+        - Multidimensional Arrays
+        - Jagged Arrays
+        - Array Copying
+        - Shallow Copy
+        - Deep Copy
+    - Strings
+        - String Creation
+        - String Indexing
+        - String Length
+        - Concatenation
+        - String Comparison
+        - Substrings
+        - String Searching
+        - String Replacement
+        - String Splitting
+        - String Joining
+        - String Formatting
+        - Escape Characters
+        - Unicode
+        - String Immutability
+    - Collections
+        - Lists
+        - Stacks
+        - Queues
+        - Deques
+        - Sets
+        - Maps
+        - Dictionaries
+        - Hash Tables
+        - Collection Traversal
+        - Collection Operations
+    - Memory Fundamentals
+        - Memory
+        - Memory Addresses
+        - Bits
+        - Bytes
+        - Memory Allocation
+        - Stack Memory
+        - Heap Memory
+        - Static Memory
+        - Dynamic Memory
+        - References
+        - Pointers
+        - References vs Pointers
+        - Pass by Value
+        - Pass by Reference
+        - Pass by Sharing
+        - Memory Layout
+        - Memory Leaks
+        - Garbage Collection
+        - Manual Memory Management
+    - Algorithms
+        - What is an Algorithm
+        - Algorithm Characteristics
+        - Input
+        - Output
+        - Definiteness
+        - Finiteness
+        - Effectiveness
+        - Pseudocode
+        - Flowcharts
+        - Algorithm Design
+        - Brute Force
+        - Divide and Conquer
+        - Greedy Approach
+        - Backtracking
+        - Dynamic Programming Basics
+        - Recursion-Based Algorithms
+    - Time & Space Complexity
+        - Algorithm Efficiency
+        - Time Complexity
+        - Space Complexity
+        - Big O Notation
+        - Big Omega
+        - Big Theta
+        - Constant Complexity O(1)
+        - Logarithmic Complexity O(log n)
+        - Linear Complexity O(n)
+        - Linearithmic Complexity O(n log n)
+        - Quadratic Complexity O(n²)
+        - Cubic Complexity O(n³)
+        - Exponential Complexity O(2ⁿ)
+        - Factorial Complexity O(n!)
+        - Best Case
+        - Average Case
+        - Worst Case
+        - Amortized Complexity
+        - Time-Space Tradeoff
+    - Searching Algorithms
+        - Linear Search
+        - Binary Search
+        - Search Conditions
+        - Search Complexity
+    - Sorting Algorithms
+        - Bubble Sort
+        - Selection Sort
+        - Insertion Sort
+        - Merge Sort
+        - Quick Sort
+        - Counting Sort
+        - Radix Sort
+        - Heap Sort
+        - Stable vs Unstable Sorting
+        - In-Place vs Out-of-Place Sorting
+    - Data Structures Fundamentals
+        - Abstract Data Types
+        - Array
+        - Linked List
+        - Singly Linked List
+        - Doubly Linked List
+        - Circular Linked List
+        - Stack
+        - Queue
+        - Circular Queue
+        - Deque
+        - Hash Table
+        - Set
+        - Map
+        - Tree
+        - Binary Tree
+        - Binary Search Tree
+        - Heap
+        - Graph
+        - Directed Graph
+        - Undirected Graph
+        - Weighted Graph
+    - Object-Oriented Programming
+        - Objects
+        - Classes
+        - Properties
+        - Methods
+        - Constructors
+        - Instances
+        - Encapsulation
+        - Abstraction
+        - Inheritance
+        - Polymorphism
+        - Method Overloading
+        - Method Overriding
+        - Interfaces
+        - Abstract Classes
+        - Composition
+        - Aggregation
+        - Association
+        - Composition vs Inheritance
+    - Functional Programming
+        - Functions as Values
+        - First-Class Functions
+        - Higher-Order Functions
+        - Pure Functions
+        - Immutability
+        - Function Composition
+        - Map
+        - Filter
+        - Reduce
+        - Closures
+        - Declarative Programming
+        - Referential Transparency
+        - Side Effects
+    - Error Handling
+        - Errors vs Exceptions
+        - Syntax Errors
+        - Runtime Errors
+        - Logical Errors
+        - Compile-Time Errors
+        - Exceptions
+        - try / catch
+        - finally
+        - throw
+        - Error Propagation
+        - Custom Errors
+        - Error Messages
+        - Defensive Programming
+        - Input Validation
+    - Debugging
+        - What is Debugging
+        - Debugging Process
+        - Reproducing Bugs
+        - Reading Error Messages
+        - Stack Traces
+        - Breakpoints
+        - Step Over
+        - Step Into
+        - Step Out
+        - Watch Expressions
+        - Logging
+        - Assertions
+        - Debuggers
+        - Root Cause Analysis
+        - Common Bug Patterns
+    - Testing Fundamentals
+        - What is Testing
+        - Manual Testing
+        - Automated Testing
+        - Unit Testing
+        - Integration Testing
+        - End-to-End Testing
+        - Test Cases
+        - Test Scenarios
+        - Assertions
+        - Test Fixtures
+        - Mocking
+        - Stubbing
+        - Test Coverage
+        - Edge Cases
+        - Boundary Testing
+        - Regression Testing
+    - File Handling
+        - Files
+        - Directories
+        - File Paths
+        - Reading Files
+        - Writing Files
+        - Appending Files
+        - File Modes
+        - Text Files
+        - Binary Files
+        - Serialization
+        - Deserialization
+        - JSON
+        - CSV
+    - Data Serialization
+        - Serialization
+        - Deserialization
+        - JSON
+        - XML
+        - CSV
+        - Binary Serialization
+        - Data Encoding
+        - Data Decoding
+        - Schema
+    - Modules & Code Organization
+        - Modules
+        - Import
+        - Export
+        - Namespaces
+        - Packages
+        - Libraries
+        - Dependencies
+        - Dependency Management
+        - Reusable Code
+        - Separation of Concerns
+        - Single Responsibility
+        - Code Organization
+    - Programming Paradigms
+        - Imperative Programming
+        - Declarative Programming
+        - Procedural Programming
+        - Object-Oriented Programming
+        - Functional Programming
+        - Event-Driven Programming
+        - Concurrent Programming
+        - Parallel Programming
+        - Generic Programming
+        - Logic Programming
+        - Reactive Programming
+    - Concurrency Fundamentals
+        - Process
+        - Thread
+        - Main Thread
+        - Multithreading
+        - Concurrency
+        - Parallelism
+        - Asynchronous Programming
+        - Synchronous Programming
+        - Race Conditions
+        - Deadlocks
+        - Starvation
+        - Synchronization
+        - Mutex
+        - Semaphore
+        - Atomic Operations
+        - Thread Safety
+    - Networking Fundamentals
+        - Client
+        - Server
+        - Request
+        - Response
+        - IP Address
+        - Port
+        - Domain Name
+        - DNS Basics
+        - Protocols
+        - TCP Basics
+        - UDP Basics
+        - HTTP Basics
+        - HTTPS Basics
+        - Sockets
+        - APIs
+        - REST Basics
+    - Database Fundamentals
+        - Database
+        - Relational Database
+        - NoSQL Database
+        - Tables
+        - Rows
+        - Columns
+        - Primary Keys
+        - Foreign Keys
+        - Relationships
+        - One-to-One
+        - One-to-Many
+        - Many-to-Many
+        - CRUD
+        - SQL Basics
+        - Queries
+        - Indexes
+        - Transactions
+        - ACID
+        - Normalization
+        - Denormalization
+    - Security Fundamentals
+        - Authentication
+        - Authorization
+        - Password Hashing
+        - Encryption
+        - Symmetric Encryption
+        - Asymmetric Encryption
+        - Hashing
+        - Salting
+        - Digital Signatures
+        - Secrets Management
+        - Input Validation
+        - Injection Attacks
+        - SQL Injection
+        - Command Injection
+        - Cross-Site Scripting Basics
+        - Principle of Least Privilege
+    - Git & Version Control
+        - Version Control
+        - Git Basics
+        - Repository
+        - Working Tree
+        - Staging Area
+        - Commit
+        - Branch
+        - Merge
+        - Rebase
+        - Conflict Resolution
+        - Remote Repository
+        - Clone
+        - Fetch
+        - Pull
+        - Push
+        - Tags
+        - Git History
+        - .gitignore
+    - Code Quality
+        - Clean Code
+        - Readability
+        - Naming
+        - Comments
+        - Documentation
+        - Code Duplication
+        - Refactoring
+        - DRY
+        - KISS
+        - YAGNI
+        - SOLID Basics
+        - Separation of Concerns
+        - Modularity
+        - Maintainability
+        - Scalability
+    - Design Patterns Fundamentals
+        - What are Design Patterns
+        - Creational Patterns
+        - Factory
+        - Builder
+        - Singleton
+        - Structural Patterns
+        - Adapter
+        - Decorator
+        - Facade
+        - Proxy
+        - Behavioral Patterns
+        - Strategy
+        - Observer
+        - Command
+        - State
+        - Template Method
+    - Problem Solving
+        - Problem Understanding
+        - Requirements Analysis
+        - Breaking Problems Down
+        - Decomposition
+        - Pattern Recognition
+        - Abstraction
+        - Logical Reasoning
+        - Step-by-Step Thinking
+        - Constraint Identification
+        - Edge Case Identification
+        - Solution Design
+        - Pseudocode Before Coding
+        - Dry Run
+        - Test With Examples
+        - Optimize After Correctness
+    - Mathematical Foundations
+        - Arithmetic
+        - Fractions
+        - Percentages
+        - Ratios
+        - Exponents
+        - Logarithms
+        - Algebra
+        - Equations
+        - Functions
+        - Sets
+        - Relations
+        - Permutations
+        - Combinations
+        - Probability Basics
+        - Discrete Mathematics Basics
+        - Boolean Algebra
+        - Binary Numbers
+        - Number Systems
+        - Bit Manipulation
+    - Software Development Fundamentals
+        - Requirements
+        - Specification
+        - Design
+        - Implementation
+        - Testing
+        - Deployment
+        - Maintenance
+        - Software Development Life Cycle
+        - Versioning
+        - Semantic Versioning
+        - Documentation
+        - Code Reviews
+        - Collaboration
+    - Programming Best Practices
+        - Write Readable Code
+        - Keep Functions Small
+        - Avoid Global State
+        - Validate Inputs
+        - Handle Errors Properly
+        - Avoid Premature Optimization
+        - Prefer Simple Solutions
+        - Reuse Code Carefully
+        - Use Meaningful Names
+        - Keep Responsibilities Separate
+        - Write Testable Code
+        - Document Complex Logic
+        - Refactor Regularly
+        - Measure Before Optimizing
+        - Understand Before Abstracting

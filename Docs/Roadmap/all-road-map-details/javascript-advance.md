@@ -1,0 +1,748 @@
+# BurnDown
+
+- JavaScript Advanced Concepts
+    - Execution Context
+        - Global Execution Context
+        - Function Execution Context
+        - Eval Execution Context
+        - Creation Phase
+        - Execution Phase
+        - Lexical Environment
+        - Variable Environment
+        - Environment Records
+        - Reference Environment
+        - Execution Context Stack
+
+    - Scope
+        - Global Scope
+        - Function Scope
+        - Block Scope
+        - Lexical Scope
+        - Dynamic Scope
+        - Scope Chain
+        - Outer Environment Reference
+        - Variable Lookup
+        - Shadowing
+        - Variable Shadowing
+        - Scope Pollution
+
+    - Hoisting
+        - Variable Hoisting
+        - Function Hoisting
+        - var Hoisting
+        - let Hoisting
+        - const Hoisting
+        - Function Declaration Hoisting
+        - Class Hoisting
+        - Temporal Dead Zone
+        - Hoisting vs Initialization
+
+    - Closures
+        - Closure Fundamentals
+        - Lexical Closures
+        - Closure Scope
+        - Closure Lifecycle
+        - Closures with Functions
+        - Closures with Loops
+        - Closures for Data Privacy
+        - Closures for Encapsulation
+        - Closures for Factory Functions
+        - Closures for Memoization
+        - Closures for Callbacks
+        - Closure Memory Usage
+        - Closure Memory Leaks
+
+    - IIFE
+        - Immediately Invoked Function Expression
+        - Function Expression
+        - IIFE Syntax
+        - Arrow Function IIFE
+        - IIFE Parameters
+        - IIFE Return Values
+        - IIFE Scope Isolation
+        - IIFE for Encapsulation
+        - IIFE for Private Variables
+        - IIFE Module Pattern
+
+    - this
+        - Global this
+        - Function this
+        - Method this
+        - Constructor this
+        - Arrow Function this
+        - this Binding
+        - Default Binding
+        - Implicit Binding
+        - Explicit Binding
+        - new Binding
+        - Lexical this
+        - this in Strict Mode
+        - this in Event Handlers
+        - this in Callbacks
+        - this in Classes
+
+    - Function Binding
+        - call()
+        - apply()
+        - bind()
+        - Explicit this Binding
+        - Partial Application
+        - Function Borrowing
+        - Method Borrowing
+        - Bound Functions
+        - call vs apply
+        - call vs bind
+        - apply vs bind
+
+    - Functions
+        - Function Declaration
+        - Function Expression
+        - Arrow Functions
+        - Anonymous Functions
+        - Named Functions
+        - Higher-Order Functions
+        - First-Class Functions
+        - Callback Functions
+        - Factory Functions
+        - Constructor Functions
+        - Pure Functions
+        - Impure Functions
+        - Function Composition
+        - Function Pipeline
+        - Currying
+        - Partial Application
+        - Recursion
+        - Tail Recursion
+        - Memoization
+        - Debouncing
+        - Throttling
+
+    - Prototypes
+        - Prototype
+        - Prototype Object
+        - [[Prototype]]
+        - __proto__
+        - prototype Property
+        - Prototype Chain
+        - Prototype Inheritance
+        - Property Lookup
+        - Own Properties
+        - Inherited Properties
+        - Object.create()
+        - Object.getPrototypeOf()
+        - Object.setPrototypeOf()
+        - hasOwnProperty()
+        - Object.hasOwn()
+        - instanceof
+        - Prototype Pollution
+
+    - Objects
+        - Object Creation
+        - Object Literals
+        - Object.create()
+        - Constructor Functions
+        - Object Properties
+        - Property Descriptors
+        - Data Descriptors
+        - Accessor Descriptors
+        - Writable
+        - Enumerable
+        - Configurable
+        - Getters
+        - Setters
+        - Computed Properties
+        - Property Keys
+        - Symbols
+        - Object.keys()
+        - Object.values()
+        - Object.entries()
+        - Object.assign()
+        - Object.freeze()
+        - Object.seal()
+        - Object.preventExtensions()
+        - Shallow Copy
+        - Deep Copy
+        - Structured Clone
+        - Object Reference
+        - Object Identity
+
+    - Classes
+        - Class Syntax
+        - Constructor
+        - Instance Properties
+        - Instance Methods
+        - Static Properties
+        - Static Methods
+        - Private Fields
+        - Private Methods
+        - Getters
+        - Setters
+        - extends
+        - super
+        - Class Inheritance
+        - Method Overriding
+        - Abstract Class Patterns
+        - Class Fields
+        - Class Expressions
+        - Class vs Constructor Functions
+        - Classes and Prototypes
+
+    - Destructuring
+        - Object Destructuring
+        - Array Destructuring
+        - Nested Destructuring
+        - Default Values
+        - Renaming Properties
+        - Rest Destructuring
+        - Function Parameter Destructuring
+        - Destructuring with Functions
+
+    - Spread & Rest
+        - Spread Operator
+        - Array Spread
+        - Object Spread
+        - Function Argument Spread
+        - Rest Parameters
+        - Rest Properties
+        - Spread vs Rest
+        - Shallow Copy with Spread
+
+    - Iterators
+        - Iterable Protocol
+        - Iterator Protocol
+        - Symbol.iterator
+        - next()
+        - value
+        - done
+        - Custom Iterators
+        - for...of
+        - Iterator Consumption
+        - Iterator Helpers
+
+    - Generators
+        - Generator Functions
+        - function*
+        - yield
+        - yield*
+        - Generator Objects
+        - next()
+        - return()
+        - throw()
+        - Generator State
+        - Lazy Evaluation
+        - Generator-Based Iteration
+        - Generator Delegation
+
+    - Async Iteration
+        - Async Iterables
+        - Async Iterators
+        - Symbol.asyncIterator
+        - Async Generators
+        - for await...of
+        - Async Generator Patterns
+
+    - Symbols
+        - Symbol Primitive
+        - Unique Symbols
+        - Global Symbol Registry
+        - Symbol.for()
+        - Symbol.keyFor()
+        - Well-Known Symbols
+        - Symbol.iterator
+        - Symbol.asyncIterator
+        - Symbol.toPrimitive
+        - Symbol.toStringTag
+        - Symbol.hasInstance
+        - Symbol.species
+
+    - Map & Set
+        - Map
+        - Map Keys
+        - Map Iteration
+        - WeakMap
+        - WeakMap Use Cases
+        - Set
+        - Set Operations
+        - WeakSet
+        - Map vs Object
+        - Set vs Array
+        - WeakMap vs Map
+        - WeakSet vs Set
+
+    - Property Descriptors & Reflection
+        - Property Descriptors
+        - Object.defineProperty()
+        - Object.defineProperties()
+        - Object.getOwnPropertyDescriptor()
+        - Object.getOwnPropertyDescriptors()
+        - Reflect
+        - Reflect.get()
+        - Reflect.set()
+        - Reflect.defineProperty()
+        - Reflect.deleteProperty()
+        - Reflect.ownKeys()
+        - Proxy and Reflect
+
+    - Proxy
+        - Proxy Fundamentals
+        - Proxy Target
+        - Proxy Handler
+        - get Trap
+        - set Trap
+        - has Trap
+        - deleteProperty Trap
+        - ownKeys Trap
+        - apply Trap
+        - construct Trap
+        - getPrototypeOf Trap
+        - setPrototypeOf Trap
+        - defineProperty Trap
+        - getOwnPropertyDescriptor Trap
+        - Proxy Validation
+        - Proxy Reactivity
+        - Proxy-Based APIs
+
+    - Reflect
+        - Reflect API
+        - Reflect.get()
+        - Reflect.set()
+        - Reflect.has()
+        - Reflect.deleteProperty()
+        - Reflect.construct()
+        - Reflect.apply()
+        - Reflect.defineProperty()
+        - Reflect.getPrototypeOf()
+        - Reflect.setPrototypeOf()
+        - Reflect.ownKeys()
+        - Reflect.preventExtensions()
+        - Reflect.isExtensible()
+
+    - Equality & Coercion
+        - Strict Equality
+        - Loose Equality
+        - Object.is()
+        - SameValue
+        - SameValueZero
+        - Type Coercion
+        - Explicit Coercion
+        - Implicit Coercion
+        - Truthy Values
+        - Falsy Values
+        - ToPrimitive
+        - ToNumber
+        - ToString
+        - ToBoolean
+        - == vs ===
+        - Object.is() vs ===
+
+    - Primitive vs Reference
+        - Primitive Values
+        - Reference Values
+        - Value Semantics
+        - Reference Semantics
+        - Copy by Value
+        - Object References
+        - Mutation
+        - Immutability
+        - Shallow Copy
+        - Deep Copy
+        - Structural Sharing
+
+    - Event Loop
+        - JavaScript Runtime
+        - Call Stack
+        - Web APIs
+        - Task Queue
+        - Microtask Queue
+        - Event Loop
+        - Rendering Phase
+        - Macrotasks
+        - Microtasks
+        - setTimeout
+        - setInterval
+        - queueMicrotask
+        - Promise Callbacks
+        - MutationObserver
+        - Execution Order
+        - Event Loop Starvation
+
+    - Promises
+        - Promise Fundamentals
+        - Promise States
+        - Pending
+        - Fulfilled
+        - Rejected
+        - Promise Resolution
+        - Promise Chaining
+        - then()
+        - catch()
+        - finally()
+        - Promise Resolution Procedure
+        - Promise.all()
+        - Promise.allSettled()
+        - Promise.race()
+        - Promise.any()
+        - Promise.reject()
+        - Promise.resolve()
+        - Promise.withResolvers()
+        - Promise Error Handling
+        - Promise Cancellation Patterns
+
+    - Async/Await
+        - async Functions
+        - await
+        - Async Function Return Values
+        - Awaiting Promises
+        - Error Handling
+        - try/catch with async/await
+        - Sequential Async Operations
+        - Parallel Async Operations
+        - Promise.all with async/await
+        - Async Iteration
+        - Async Generators
+        - Top-Level await
+
+    - Error Handling
+        - Error Object
+        - Error Types
+        - Error Stack
+        - throw
+        - try/catch
+        - finally
+        - Custom Errors
+        - Error Subclassing
+        - AggregateError
+        - Promise Errors
+        - Async Errors
+        - Global Error Handling
+        - unhandledrejection
+        - Error Boundaries Concepts
+
+    - Modules
+        - ES Modules
+        - import
+        - export
+        - Named Exports
+        - Default Exports
+        - Re-Exports
+        - Namespace Imports
+        - Dynamic import()
+        - import.meta
+        - Module Scope
+        - Module Evaluation
+        - Module Loading
+        - Circular Dependencies
+        - CommonJS
+        - require()
+        - module.exports
+        - ESM vs CommonJS
+        - Module Interoperability
+        - Tree Shaking
+
+    - Functional Programming
+        - First-Class Functions
+        - Higher-Order Functions
+        - Pure Functions
+        - Side Effects
+        - Immutability
+        - Referential Transparency
+        - Function Composition
+        - Partial Application
+        - Currying
+        - Point-Free Programming
+        - Declarative Programming
+        - Function Pipelines
+        - Recursion
+        - Memoization
+
+    - Advanced Array Concepts
+        - map()
+        - filter()
+        - reduce()
+        - reduceRight()
+        - find()
+        - findIndex()
+        - findLast()
+        - findLastIndex()
+        - some()
+        - every()
+        - includes()
+        - flat()
+        - flatMap()
+        - sort()
+        - toSorted()
+        - reverse()
+        - toReversed()
+        - splice()
+        - toSpliced()
+        - slice()
+        - Array.from()
+        - Array.fromAsync()
+        - Array.of()
+        - Array-like Objects
+        - Typed Arrays
+
+    - Advanced String Concepts
+        - String Iteration
+        - Unicode
+        - UTF-16
+        - Code Units
+        - Code Points
+        - Surrogate Pairs
+        - String.raw
+        - Template Literals
+        - Tagged Templates
+        - String Normalization
+        - Regular Expressions
+
+    - Regular Expressions
+        - Regex Syntax
+        - Character Classes
+        - Quantifiers
+        - Groups
+        - Capturing Groups
+        - Non-Capturing Groups
+        - Named Groups
+        - Backreferences
+        - Lookahead
+        - Lookbehind
+        - Flags
+        - Global
+        - Multiline
+        - Ignore Case
+        - DotAll
+        - Unicode
+        - Sticky
+        - RegExp Methods
+        - String Regex Methods
+
+    - Memory Management
+        - JavaScript Heap
+        - Stack vs Heap
+        - Garbage Collection
+        - Reachability
+        - Mark-and-Sweep
+        - Generational Garbage Collection
+        - Memory Allocation
+        - Memory Retention
+        - Memory Leaks
+        - Closure Memory
+        - Detached DOM Nodes
+        - Event Listener Leaks
+        - WeakMap
+        - WeakSet
+        - WeakRef
+        - FinalizationRegistry
+
+    - Advanced Memory Concepts
+        - WeakRef
+        - FinalizationRegistry
+        - Garbage Collection Semantics
+        - Object Reachability
+        - Strong References
+        - Weak References
+        - Memory Leak Detection
+
+    - Metaprogramming
+        - Proxy
+        - Reflect
+        - Symbols
+        - Property Descriptors
+        - Dynamic Object Behavior
+        - Custom Iterators
+        - Custom Operators Patterns
+        - Decorator Concepts
+        - Decorators
+
+    - Modules & Design Patterns
+        - Module Pattern
+        - Revealing Module Pattern
+        - Factory Pattern
+        - Constructor Pattern
+        - Singleton Pattern
+        - Observer Pattern
+        - Pub/Sub Pattern
+        - Strategy Pattern
+        - Adapter Pattern
+        - Decorator Pattern
+        - Proxy Pattern
+        - Facade Pattern
+        - Builder Pattern
+        - Command Pattern
+        - Dependency Injection
+        - Repository Pattern
+
+    - JavaScript Runtime Internals
+        - ECMAScript Specification
+        - JavaScript Engine
+        - Parser
+        - AST
+        - Bytecode
+        - Interpreter
+        - JIT Compiler
+        - Baseline Compiler
+        - Optimizing Compiler
+        - Deoptimization
+        - Hidden Classes
+        - Inline Caching
+        - Garbage Collector
+        - Runtime APIs
+        - Host Environment
+        - Browser Runtime
+        - Node.js Runtime
+
+    - JavaScript Engine Optimization
+        - Hidden Classes
+        - Shapes
+        - Inline Caches
+        - Monomorphic Operations
+        - Polymorphic Operations
+        - Megamorphic Operations
+        - JIT Optimization
+        - Deoptimization
+        - Hot Code
+        - V8 Optimization Concepts
+        - JavaScript Performance
+
+    - Concurrency
+        - Single-Threaded JavaScript
+        - Cooperative Concurrency
+        - Event Loop Concurrency
+        - Web Workers
+        - Worker Threads
+        - SharedArrayBuffer
+        - Atomics
+        - Message Passing
+        - Race Conditions
+        - Shared Memory
+        - Data Races
+
+    - Event System
+        - Event Object
+        - Event Target
+        - Event Listener
+        - Event Bubbling
+        - Event Capturing
+        - Event Delegation
+        - stopPropagation()
+        - stopImmediatePropagation()
+        - preventDefault()
+        - CustomEvent
+        - Passive Listeners
+        - Once Listeners
+        - AbortSignal Event Listeners
+
+    - Async Patterns
+        - Callback Pattern
+        - Callback Hell
+        - Error-First Callbacks
+        - Promise Pattern
+        - Async/Await Pattern
+        - Sequential Execution
+        - Parallel Execution
+        - Concurrent Execution
+        - Race Conditions
+        - Retry Pattern
+        - Exponential Backoff
+        - Timeout Pattern
+        - Cancellation
+        - AbortController
+        - Queues
+        - Task Scheduling
+        - Rate Limiting
+
+    - Performance Patterns
+        - Memoization
+        - Debouncing
+        - Throttling
+        - Lazy Evaluation
+        - Lazy Initialization
+        - Code Splitting
+        - Dynamic Imports
+        - Tree Shaking
+        - Object Pooling
+        - Batch Processing
+        - Virtualization
+        - Avoiding Unnecessary Allocations
+        - Avoiding Memory Leaks
+
+    - Modern JavaScript
+        - let
+        - const
+        - Arrow Functions
+        - Template Literals
+        - Destructuring
+        - Spread
+        - Rest
+        - Default Parameters
+        - Optional Chaining
+        - Nullish Coalescing
+        - Modules
+        - Classes
+        - Private Fields
+        - Async/Await
+        - Promise APIs
+        - Optional Catch Binding
+        - Numeric Separators
+        - BigInt
+        - Logical Assignment
+        - Dynamic Import
+        - Top-Level await
+        - WeakRef
+        - FinalizationRegistry
+        - Private Methods
+        - Static Class Features
+        - Error Cause
+        - Modern ECMAScript Features
+
+    - JavaScript Security
+        - XSS
+        - Prototype Pollution
+        - Object Injection
+        - DOM XSS
+        - Eval Risks
+        - Function Constructor Risks
+        - Unsafe Deserialization
+        - Regular Expression DoS
+        - Supply Chain Risks
+        - Dependency Security
+        - Secure Randomness
+        - Web Crypto API
+        - Content Security Policy
+        - Trusted Types
+
+    - Debugging
+        - Debugger Statement
+        - Breakpoints
+        - Conditional Breakpoints
+        - Watch Expressions
+        - Call Stack Inspection
+        - Scope Inspection
+        - Source Maps
+        - Console Debugging
+        - Performance Profiling
+        - Memory Profiling
+        - Async Stack Traces
+        - Error Stack Traces
+
+    - Advanced JavaScript Interview Concepts
+        - Closure Questions
+        - Hoisting Questions
+        - this Questions
+        - Prototype Questions
+        - Event Loop Questions
+        - Promise Questions
+        - Async/Await Questions
+        - Output-Based Questions
+        - Type Coercion Questions
+        - Scope Questions
+        - Execution Context Questions
+        - Event Delegation Questions
+        - Object Reference Questions
+        - Deep vs Shallow Copy
+        - Currying Questions
+        - Debounce/Throttle Questions
+        - Polyfill Questions
+        - Prototype Inheritance Questions
+        - Memory Leak Questions
+        - Browser Runtime Questions

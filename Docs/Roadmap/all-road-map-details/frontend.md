@@ -1,0 +1,931 @@
+# BurnDown
+
+- Frontend
+    - HTML
+        - HTML Document Structure
+        - Doctype
+        - HTML Elements
+        - HTML Attributes
+        - Semantic HTML
+        - Headings
+        - Paragraphs
+        - Links
+        - Images
+        - Audio
+        - Video
+        - Iframes
+        - Lists
+        - Tables
+        - Forms
+        - Form Controls
+        - Input Types
+        - Form Validation
+        - Labels
+        - Buttons
+        - Select
+        - Textarea
+        - Fieldset
+        - Legend
+        - Details
+        - Summary
+        - Dialog
+        - Templates
+        - Data Attributes
+        - Meta Tags
+        - Open Graph
+        - Favicon
+        - HTML Entities
+        - Character Encoding
+        - Accessibility Attributes
+        - ARIA
+        - SEO Basics
+        - HTML Parsing
+        - DOM
+
+    - CSS
+        - CSS Syntax
+        - Selectors
+        - Universal Selector
+        - Type Selector
+        - Class Selector
+        - ID Selector
+        - Attribute Selector
+        - Pseudo-Classes
+        - Pseudo-Elements
+        - Specificity
+        - Cascade
+        - Inheritance
+        - CSS Values
+        - Units
+        - Colors
+        - Variables
+        - Custom Properties
+        - Box Model
+        - Margin
+        - Padding
+        - Border
+        - Width
+        - Height
+        - Min/Max Width
+        - Min/Max Height
+        - Display
+        - Position
+        - z-index
+        - Overflow
+        - Visibility
+        - Opacity
+        - Flexbox
+        - Grid
+        - Gap
+        - Alignment
+        - Responsive Design
+        - Media Queries
+        - Container Queries
+        - Mobile-First Design
+        - Typography
+        - Fonts
+        - Web Fonts
+        - Font Loading
+        - Backgrounds
+        - Gradients
+        - Borders
+        - Border Radius
+        - Shadows
+        - Transforms
+        - Transitions
+        - Animations
+        - Keyframes
+        - CSS Functions
+        - calc()
+        - min()
+        - max()
+        - clamp()
+        - CSS Nesting
+        - Logical Properties
+        - CSS Layers
+        - @import
+        - @supports
+        - @media
+        - @container
+        - Stacking Context
+        - Containing Blocks
+        - Layout Algorithms
+        - CSS Architecture
+        - BEM
+        - CSS Modules
+        - CSS-in-JS
+        - Preprocessors
+        - Sass/SCSS
+        - PostCSS
+        - CSS Reset
+        - Normalize CSS
+        - Dark Mode
+        - prefers-color-scheme
+        - prefers-reduced-motion
+        - Print Styles
+
+    - JavaScript
+        - JavaScript Syntax
+        - Variables
+        - var
+        - let
+        - const
+        - Primitive Types
+        - String
+        - Number
+        - BigInt
+        - Boolean
+        - Undefined
+        - Null
+        - Symbol
+        - Objects
+        - Arrays
+        - Functions
+        - Arrow Functions
+        - Function Declarations
+        - Function Expressions
+        - Parameters
+        - Arguments
+        - Default Parameters
+        - Rest Parameters
+        - Spread Syntax
+        - Destructuring
+        - Template Literals
+        - Operators
+        - Arithmetic Operators
+        - Comparison Operators
+        - Logical Operators
+        - Nullish Coalescing
+        - Optional Chaining
+        - Ternary Operator
+        - Control Flow
+        - if/else
+        - switch
+        - for
+        - while
+        - do/while
+        - for...of
+        - for...in
+        - Iteration
+        - Closures
+        - Scope
+        - Lexical Scope
+        - Global Scope
+        - Function Scope
+        - Block Scope
+        - Hoisting
+        - Temporal Dead Zone
+        - Execution Context
+        - Call Stack
+        - Heap
+        - Garbage Collection
+        - this
+        - call()
+        - apply()
+        - bind()
+        - Prototypes
+        - Prototype Chain
+        - Classes
+        - Constructor
+        - Inheritance
+        - Getters
+        - Setters
+        - Static Members
+        - Private Fields
+        - Modules
+        - import
+        - export
+        - CommonJS
+        - ES Modules
+        - Dynamic Imports
+        - Iterators
+        - Generators
+        - Symbol
+        - Map
+        - Set
+        - WeakMap
+        - WeakSet
+        - Proxy
+        - Reflect
+        - Regular Expressions
+        - Date
+        - Intl
+        - JSON
+        - Error Handling
+        - Error
+        - try/catch
+        - finally
+        - Custom Errors
+        - Strict Mode
+        - Equality
+        - Type Coercion
+        - Immutability
+        - Functional Programming
+        - Higher-Order Functions
+        - Pure Functions
+        - Currying
+        - Composition
+        - Memoization
+
+    - JavaScript Asynchronous Programming
+        - Synchronous vs Asynchronous
+        - Call Stack
+        - Web APIs
+        - Event Loop
+        - Task Queue
+        - Microtask Queue
+        - setTimeout
+        - setInterval
+        - Promises
+        - Promise States
+        - Promise Chaining
+        - Promise.all
+        - Promise.allSettled
+        - Promise.race
+        - Promise.any
+        - async/await
+        - Error Handling with async/await
+        - Fetch
+        - AbortController
+        - Cancellation
+        - Async Iterators
+        - for await...of
+
+    - DOM
+        - DOM Tree
+        - Document
+        - Elements
+        - Nodes
+        - Query Selectors
+        - Creating Elements
+        - Removing Elements
+        - Updating Elements
+        - Attributes
+        - Classes
+        - Styles
+        - Events
+        - Event Listeners
+        - Event Bubbling
+        - Event Capturing
+        - Event Delegation
+        - preventDefault
+        - stopPropagation
+        - Custom Events
+        - MutationObserver
+        - IntersectionObserver
+        - ResizeObserver
+
+    - Browser APIs
+        - Fetch API
+        - URL API
+        - History API
+        - Storage API
+        - Cookies
+        - localStorage
+        - sessionStorage
+        - IndexedDB
+        - WebSocket
+        - Web Workers
+        - Service Workers
+        - Notifications API
+        - Clipboard API
+        - Geolocation API
+        - Web Crypto API
+        - File API
+        - Drag and Drop API
+        - Streams API
+        - Web Components
+
+    - TypeScript
+        - TypeScript Basics
+        - Type Annotations
+        - Type Inference
+        - Primitive Types
+        - String
+        - Number
+        - Boolean
+        - BigInt
+        - Symbol
+        - null
+        - undefined
+        - any
+        - unknown
+        - never
+        - void
+        - Object Types
+        - Arrays
+        - Tuples
+        - Readonly Arrays
+        - Enums
+        - Literal Types
+        - Union Types
+        - Intersection Types
+        - Type Aliases
+        - Interfaces
+        - Interface vs Type
+        - Optional Properties
+        - Readonly Properties
+        - Index Signatures
+        - Function Types
+        - Optional Parameters
+        - Default Parameters
+        - Rest Parameters
+        - Function Overloads
+        - Generic Functions
+        - Generic Types
+        - Generic Interfaces
+        - Generic Constraints
+        - keyof
+        - typeof
+        - indexed access types
+        - Conditional Types
+        - Mapped Types
+        - Template Literal Types
+        - Utility Types
+        - Partial
+        - Required
+        - Readonly
+        - Record
+        - Pick
+        - Omit
+        - Exclude
+        - Extract
+        - NonNullable
+        - ReturnType
+        - Parameters
+        - ConstructorParameters
+        - InstanceType
+        - Awaited
+        - Type Guards
+        - typeof Guards
+        - instanceof Guards
+        - in Operator
+        - User-Defined Type Guards
+        - Discriminated Unions
+        - Exhaustiveness Checking
+        - Type Narrowing
+        - Type Assertions
+        - Non-Null Assertion
+        - const Assertions
+        - satisfies
+        - as const
+        - Declaration Files
+        - .d.ts
+        - Ambient Declarations
+        - Module Declarations
+        - Global Declarations
+        - DefinitelyTyped
+        - Declaration Merging
+        - Namespaces
+        - Modules
+        - Module Resolution
+        - ES Modules
+        - CommonJS
+        - ESM vs CommonJS
+        - TypeScript Compiler
+        - tsconfig.json
+        - Compiler Options
+        - target
+        - module
+        - moduleResolution
+        - lib
+        - strict
+        - noImplicitAny
+        - strictNullChecks
+        - noUncheckedIndexedAccess
+        - exactOptionalPropertyTypes
+        - noImplicitReturns
+        - noUnusedLocals
+        - noUnusedParameters
+        - sourceMap
+        - declaration
+        - paths
+        - baseUrl
+        - include
+        - exclude
+        - Project References
+        - Incremental Compilation
+        - TypeScript with JavaScript
+        - JSDoc
+        - TypeScript and DOM
+        - TypeScript and React
+        - TypeScript and Node
+        - Type-Safe APIs
+        - Type-Safe Forms
+        - Type-Safe Events
+        - Type-Safe Error Handling
+        - Advanced Generic Patterns
+        - Recursive Types
+        - Infer
+        - Variance
+        - Structural Typing
+        - Nominal Typing Patterns
+        - Branded Types
+
+    - React
+        - React Fundamentals
+        - Components
+        - JSX
+        - TSX
+        - Props
+        - State
+        - Rendering
+        - Re-rendering
+        - Component Lifecycle
+        - Conditional Rendering
+        - Lists
+        - Keys
+        - Event Handling
+        - Forms
+        - Controlled Components
+        - Uncontrolled Components
+        - Refs
+        - Children
+        - Composition
+        - Component Patterns
+        - Hooks
+        - useState
+        - useEffect
+        - useContext
+        - useReducer
+        - useRef
+        - useMemo
+        - useCallback
+        - useLayoutEffect
+        - useImperativeHandle
+        - useDebugValue
+        - Custom Hooks
+        - Rules of Hooks
+        - Effect Dependencies
+        - Effect Cleanup
+        - State Colocation
+        - Derived State
+        - Lifting State Up
+        - Prop Drilling
+        - Context API
+        - Error Boundaries
+        - Portals
+        - Fragments
+        - Suspense
+        - Lazy Loading
+        - Code Splitting
+        - Concurrent Rendering
+        - Transitions
+        - useTransition
+        - useDeferredValue
+        - useId
+        - useSyncExternalStore
+        - Server Components
+        - Client Components
+        - Server Actions
+        - Hydration
+        - Reconciliation
+        - Virtual DOM
+        - Fiber Architecture
+        - React Compiler
+        - React Performance
+        - React DevTools
+
+    - React TypeScript
+        - Typed Props
+        - Typed State
+        - Typed Events
+        - Typed Refs
+        - Typed Children
+        - Component Types
+        - Generic Components
+        - Generic Hooks
+        - Custom Hook Types
+        - Context Types
+        - Reducer Types
+        - Form Types
+        - API Response Types
+        - Discriminated Union Props
+        - Component Polymorphism
+        - forwardRef Typing
+        - Component Composition Types
+
+    - React Router
+        - Routing
+        - Routes
+        - Route Parameters
+        - Nested Routes
+        - Dynamic Routes
+        - Query Parameters
+        - Navigation
+        - Link
+        - NavLink
+        - useNavigate
+        - useParams
+        - useSearchParams
+        - Route Guards
+        - Protected Routes
+        - Lazy Routes
+        - Route Loaders
+        - Route Actions
+        - Error Routes
+        - 404 Routes
+
+    - State Management
+        - Local State
+        - Lifted State
+        - Context API
+        - useReducer
+        - Global State
+        - Client State
+        - Server State
+        - URL State
+        - Form State
+        - Jotai
+        - Jotai Atoms
+        - Primitive Atoms
+        - Derived Atoms
+        - Writable Atoms
+        - Async Atoms
+        - Atom Families
+        - Atom Composition
+        - Atom Effects
+        - Redux
+        - Redux Toolkit
+        - Zustand
+        - Recoil
+        - MobX
+        - State Normalization
+        - State Persistence
+        - State Synchronization
+
+    - Data Fetching
+        - REST APIs
+        - GraphQL
+        - Fetch
+        - Axios
+        - TanStack Query
+        - Queries
+        - Mutations
+        - Query Keys
+        - Query Cache
+        - Stale Time
+        - Garbage Collection
+        - Query Invalidation
+        - Prefetching
+        - Optimistic Updates
+        - Pagination
+        - Infinite Queries
+        - Dependent Queries
+        - Parallel Queries
+        - Query Retries
+        - Error Handling
+        - Loading States
+        - Suspense Queries
+        - Server State Management
+        - API Caching
+
+    - Forms
+        - Controlled Forms
+        - Uncontrolled Forms
+        - Form State
+        - Form Validation
+        - Client-Side Validation
+        - Server-Side Validation
+        - React Hook Form
+        - Formik
+        - Zod
+        - Yup
+        - Schema Validation
+        - Type-Safe Forms
+        - Dynamic Forms
+        - Nested Forms
+        - File Uploads
+        - Multi-Step Forms
+
+    - UI & Styling
+        - Tailwind CSS
+        - Utility Classes
+        - Responsive Utilities
+        - Dark Mode
+        - Tailwind Configuration
+        - Tailwind Plugins
+        - Component Variants
+        - CSS Modules
+        - Styled Components
+        - Emotion
+        - CSS-in-JS
+        - Design Systems
+        - Design Tokens
+        - Component Libraries
+        - shadcn/ui
+        - Radix UI
+        - Ant Design
+        - Material UI
+        - Headless UI
+        - Accessible Components
+        - Modal
+        - Dialog
+        - Dropdown
+        - Select
+        - Tabs
+        - Accordion
+        - Tooltip
+        - Popover
+        - Toast
+        - Drawer
+        - Data Table
+        - Pagination
+        - Date Picker
+
+    - Frontend Architecture
+        - Component Architecture
+        - Feature-Based Architecture
+        - Layered Architecture
+        - Atomic Design
+        - Container/Presentational Pattern
+        - Compound Components
+        - Render Props
+        - Higher-Order Components
+        - Custom Hooks
+        - Dependency Inversion
+        - Separation of Concerns
+        - Reusable Components
+        - Shared Components
+        - Feature Modules
+        - Design Systems
+        - Monorepos
+        - Micro Frontends
+
+    - Next.js
+        - Next.js Fundamentals
+        - App Router
+        - Pages Router
+        - File-Based Routing
+        - Layouts
+        - Loading UI
+        - Error UI
+        - Not Found
+        - Server Components
+        - Client Components
+        - Server Actions
+        - Route Handlers
+        - Middleware
+        - Dynamic Routes
+        - Static Rendering
+        - Dynamic Rendering
+        - Streaming
+        - Suspense
+        - Incremental Static Regeneration
+        - Server-Side Rendering
+        - Client-Side Rendering
+        - Hydration
+        - Metadata
+        - Image Optimization
+        - Font Optimization
+        - Caching
+        - Revalidation
+        - Middleware
+        - Authentication
+        - API Routes
+        - Deployment
+
+    - Build Tools
+        - npm
+        - pnpm
+        - Yarn
+        - Bun
+        - package.json
+        - package-lock.json
+        - node_modules
+        - Semantic Versioning
+        - Dependencies
+        - Dev Dependencies
+        - npm Scripts
+        - Vite
+        - Webpack
+        - Rollup
+        - esbuild
+        - SWC
+        - Babel
+        - Tree Shaking
+        - Bundling
+        - Minification
+        - Transpilation
+        - Code Splitting
+        - Source Maps
+        - Environment Variables
+        - Build Modes
+        - Development Build
+        - Production Build
+
+    - Testing
+        - Unit Testing
+        - Integration Testing
+        - End-to-End Testing
+        - Component Testing
+        - Vitest
+        - Jest
+        - React Testing Library
+        - Playwright
+        - Cypress
+        - Test Assertions
+        - Mocking
+        - Spies
+        - Fixtures
+        - Test Coverage
+        - Snapshot Testing
+        - Visual Regression Testing
+        - Accessibility Testing
+        - API Mocking
+        - MSW
+
+    - Frontend Debugging
+        - Browser DevTools
+        - Elements Panel
+        - Console
+        - Network Panel
+        - Application Panel
+        - Sources
+        - Performance Panel
+        - Memory Panel
+        - React DevTools
+        - Breakpoints
+        - Watch Expressions
+        - Source Maps
+        - Network Debugging
+        - State Debugging
+        - Rendering Debugging
+        - Memory Leak Detection
+
+    - Accessibility
+        - WCAG
+        - Semantic HTML
+        - ARIA
+        - Keyboard Navigation
+        - Focus Management
+        - Focus Trap
+        - Screen Readers
+        - Accessible Forms
+        - Accessible Images
+        - Accessible Buttons
+        - Accessible Modals
+        - Color Contrast
+        - Reduced Motion
+        - Accessible Tables
+        - Accessible Navigation
+        - Accessibility Testing
+
+    - SEO
+        - Semantic HTML
+        - Meta Tags
+        - Title
+        - Description
+        - Canonical URL
+        - Robots Meta
+        - Open Graph
+        - Twitter Cards
+        - Structured Data
+        - JSON-LD
+        - Sitemap
+        - Robots.txt
+        - SSR SEO
+        - SSG SEO
+        - Core Web Vitals
+
+    - Frontend Performance
+        - Rendering Performance
+        - JavaScript Performance
+        - React Performance
+        - Bundle Size
+        - Tree Shaking
+        - Code Splitting
+        - Lazy Loading
+        - Image Optimization
+        - Font Optimization
+        - Memoization
+        - React.memo
+        - useMemo
+        - useCallback
+        - Virtualization
+        - List Virtualization
+        - Web Workers
+        - WebAssembly
+        - Network Performance
+        - Caching
+        - CDN
+        - Compression
+        - Preload
+        - Prefetch
+        - Preconnect
+        - Core Web Vitals
+        - LCP
+        - CLS
+        - INP
+        - TTFB
+
+    - Security
+        - XSS
+        - CSRF
+        - CORS
+        - CSP
+        - Clickjacking
+        - Secure Cookies
+        - HttpOnly Cookies
+        - SameSite Cookies
+        - Token Security
+        - JWT Security
+        - OAuth Security
+        - Dependency Security
+        - npm Security
+        - Supply Chain Attacks
+        - Environment Variables
+        - Secrets Management
+        - Content Sanitization
+        - Input Validation
+        - Output Encoding
+
+    - Git & Frontend Workflow
+        - Git Basics
+        - Branches
+        - Commits
+        - Merge
+        - Rebase
+        - Pull Requests
+        - Merge Conflicts
+        - Git Hooks
+        - Conventional Commits
+        - Semantic Versioning
+        - Code Review
+        - Monorepos
+
+    - Code Quality
+        - ESLint
+        - Prettier
+        - TypeScript Strict Mode
+        - Husky
+        - lint-staged
+        - Pre-Commit Hooks
+        - Code Formatting
+        - Static Analysis
+        - Clean Code
+        - SOLID Principles
+        - DRY
+        - KISS
+        - YAGNI
+        - Refactoring
+
+    - Frontend Architecture Patterns
+        - MVC
+        - MVVM
+        - Component-Based Architecture
+        - Feature-Sliced Design
+        - Atomic Design
+        - Clean Architecture
+        - Domain-Driven Frontend
+        - Repository Pattern
+        - Adapter Pattern
+        - Facade Pattern
+        - Observer Pattern
+        - State Machine Pattern
+        - Compound Component Pattern
+        - Headless Component Pattern
+
+    - Internationalization
+        - i18n
+        - Localization
+        - Translation
+        - Locale
+        - Intl API
+        - Date Formatting
+        - Number Formatting
+        - Currency Formatting
+        - Time Zones
+        - Pluralization
+        - RTL
+        - LTR
+
+    - Frontend Deployment
+        - Production Builds
+        - Static Hosting
+        - CDN Deployment
+        - SSR Deployment
+        - Serverless
+        - Edge Functions
+        - Environment Configuration
+        - Environment Variables
+        - CI/CD
+        - GitHub Actions
+        - Preview Deployments
+        - Production Deployment
+        - Rollbacks
+        - Monitoring
+        - Error Tracking
+        - Analytics
+
+    - Frontend Observability
+        - Logging
+        - Error Tracking
+        - Runtime Errors
+        - Performance Monitoring
+        - Real User Monitoring
+        - Session Replay
+        - Analytics
+        - Web Vitals Monitoring
+        - Frontend Metrics
+        - Alerting
